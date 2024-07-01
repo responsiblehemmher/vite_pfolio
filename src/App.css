@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all 0.8s;
+}
+
+.container {
+  max-width: 700px !important;
+}
+
+.inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.vietnamPro {
+  font-family: 'Be Vietnam Pro', sans-serif !important;
+}
+
+.bgorange {
+  background-color: #F06543;
+}
+
+.bglightblue {
+  background-color: #50D8D7;
+}
+
+.bgbrown {
+  background-color: #5F2544;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes hover-glow {
+  0% {
+      background: linear-gradient(to left, #f0664328 20%, #03797130 80%);
+  }
+  100% {
+      background: linear-gradient(to left, #03797127 20%, #f0664328 80%);
+  }
+}
+
+@media screen and (max-width:786px) {
+  .name {
+      font-size: 18px;
+  }
+  .row1 {
+      flex-wrap: nowrap !important;
+      flex-direction: column-reverse;
+      justify-content: center !important;
+  }
+  .row2 {
+      display: flex;
+      justify-content: center !important;
+  }
+  .nav-bar {
+      display: none;
+  }
+}

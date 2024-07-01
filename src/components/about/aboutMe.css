@@ -1,0 +1,32 @@
+.maintain-box {
+    height: 35px !important;
+    width: 110px !important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.maintain-box:hover {
+    background-color: #65656539;
+}
+
+.resume {
+    border: 2px solid #F06543;
+    padding: 2px 3px;
+}
+
+.resume:hover {
+    animation: hover-glow 2s infinite alternate;
+}
+
+.description {
+    color: var(--blue1, #013684);
+}
+
+.greentext {
+    color: #0A5C3F;
+}
+
+.bluetext {
+    color: #013684;
+}

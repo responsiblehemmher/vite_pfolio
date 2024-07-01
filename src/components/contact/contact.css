@@ -1,0 +1,11 @@
+.color-button {
+    border: 3px solid transparent;
+    border-image-source: linear-gradient(to left, #F06543 20%, #037971 80%);
+    border-image-slice: 1;
+    border-radius: 10px;
+    animation: glow 2s infinite alternate;
+}
+
+.color-button:hover {
+    animation: hover-glow 2s infinite alternate;
+}

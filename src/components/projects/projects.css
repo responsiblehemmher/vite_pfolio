@@ -1,0 +1,32 @@
+.project-box {
+    height: 200px;
+    width: 300px;
+    text-justify: distribute-all-lines;
+    background: #0C1B31 !important;
+    box-shadow: 0px 7px 7px 0px rgba(169, 156, 156, 0.25) !important;
+}
+
+.lightgreentext {
+    color: #07e49794 !important;
+}
+
+.lightgreentext:hover {
+    color: #07e4974e !important;
+}
+
+.smaller-maintain-box {
+    width: 33%;
+    height: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.smaller-maintain-box:hover {
+    background-color: thistle;
+}
+
+.see-more {
+    height: 25px;
+    width: 80px;
+}
